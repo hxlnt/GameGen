@@ -27,7 +27,7 @@ p {
   transition: all 0.2s ease;
 }
 
-.genre,.action,.things,.goals {
+#genre,#action,#things,#goals {
   opacity: 1;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -36,19 +36,19 @@ p {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.action {
+#action {
   color: rgba(255, 205, 255, 0.8);
 }  
 
-.things {
+#things {
   color: rgba(205, 205, 255, 0.8);
 }  
 
-.goals {
+#goals {
   color: rgba(205, 255, 205, 0.8);
 }  
 
-.genre:hover,.action:hover,.things:hover,.goals:hover {
+#genre:hover,#action:hover,#things:hover,#goals:hover {
   text-shadow: 0 4px 4px rgba(255, 255, 255, 0.2), 0 6px 6px rgba(255, 255, 255, 0.4), 0 8px 18px rgba(255, 255, 255, 0.8), 0 22px 18px rgba(255, 255, 255, 0.5), 0 -4px 4px rgba(255, 255, 255, 0.2), 0 -6px 6px rgba(255, 255, 255, 0.4), 0 -8px 18px rgba(255, 255, 255, 0.8), 0 -22px 18px rgba(255, 255, 255, 0.5);
   color: rgba(255, 255, 255, 0.2);
   top: 12px;
